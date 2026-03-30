@@ -2,7 +2,7 @@ module counter (
 	input logic clk,
 	input logic en,
 	input logic rst,
-	output logic [7:0] out
+	output logic [7:0] q
 );
 	always_ff @ (posedge clk) begin
 		if (rst)
