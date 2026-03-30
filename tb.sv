@@ -5,7 +5,7 @@ module tb ();
 logic clk;
 logic en;
 logic rst;
-logic q[7:0];
+logic [7:0] q;
 
 // Instantiate the DUT (Device Under Test)
 counter dut (
