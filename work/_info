@@ -9,17 +9,17 @@ z2
 cModel Technology
 Z0 dD:/Projects/ECEN2233-LAB8
 T_opt
-!s110 1774892415
-VIi`XNT89@Ce6hl3Go?D`k2
+!s110 1774892819
+V6Lj:<1ZE^FLBjPPO8FLd[3
 04 2 4 work tb fast 0
-=1-c2f1b3990285-69cab57f-23-184
+=1-c2f1b3990285-69cab713-1-68a0
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;10.7f;67
 vclock_divider
 Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-Z3 !s110 1774892414
+Z3 !s110 1774892818
 !i10b 1
 !s100 mRQjiad`gzL1h[h=Uek:V1
 IV9@9H8bzKIBbS0?jS;K_U3
@@ -35,7 +35,7 @@ Z5 OL;L;10.7f;67
 r1
 !s85 0
 31
-Z6 !s108 1774892414.000000
+Z6 !s108 1774892818.000000
 Z7 !s107 tb.sv|debounce.sv|counter.sv|clk_div.sv|
 Z8 !s90 clk_div.sv|counter.sv|debounce.sv|tb.sv|
 !i113 0
@@ -93,13 +93,13 @@ vtb
 R2
 R3
 !i10b 1
-!s100 i=c_@<1lH_zkdGfoifZ5h3
-Im4en5AoQY]0j2onnMjU3[1
+!s100 c]Ho0L_IDU2LdXIbK;X6P0
+IYV7Nd?z8N8kkdU48>0;X01
 R4
 !s105 tb_sv_unit
 S1
 R0
-w1774892314
+w1774892795
 8tb.sv
 Ftb.sv
 L0 3

@@ -3,13 +3,15 @@
 module tb ();
 
 logic clk;
-logic reset;
-logic d;
-logic q;
+logic en;
+logic rst;
+logic q[7:0];
 
 // Instantiate the DUT (Device Under Test)
 counter dut (
     .clk(clk),
+    .en(en),
+    .rst(rst),
     .q(q)
 );
 
@@ -29,30 +31,30 @@ initial begin
     $display("Starting DFF Testbench");
     
     // initial values
-    reset = 1;
-    d = 0;
+    rst = 1;
+    en = 0;
 
     #20;
-    reset = 0;
+    rst = 0;
 
     // Test 1
-    d = 1;
+    en = 1;
     #20;
 
     // Test 2
-    d = 0;
+    en = 0;
     #20;
 
     // Test 3
-    d = 1;
+    en = 1;
     #20;
 
     // Test reset again
-    reset = 1;
+    rst = 1;
     #10;
-    reset = 0;
+    rst = 0;
 
-    d = 0;
+    en = 0;
     #20;
 
     $display("Test completed");
@@ -66,7 +68,7 @@ end
 
 initial begin
     $monitor("time=%0t clk=%b reset=%b d=%b q=%b",
-              $time, clk, reset, d, q);
+              $time, clk, rst, en, q);
 end
 
 endmodule

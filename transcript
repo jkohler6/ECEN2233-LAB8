@@ -1,6 +1,6 @@
 # do counter.do
 # Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
-# Start time: 12:40:14 on Mar 30,2026
+# Start time: 12:46:58 on Mar 30,2026
 # vlog clk_div.sv counter.sv debounce.sv tb.sv 
 # -- Compiling module clock_divider
 # -- Compiling module counter
@@ -11,14 +11,11 @@
 # 	clock_divider
 # 	debounce
 # 	tb
-# End time: 12:40:14 on Mar 30,2026, Elapsed time: 0:00:00
+# End time: 12:46:58 on Mar 30,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.tb 
-# Start time: 12:40:14 on Mar 30,2026
+# Start time: 12:46:58 on Mar 30,2026
 # ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: tb.sv(11): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 4, found 2.
-# ** Warning: tb.sv(11): (vopt-2718) [TFMPC] - Missing connection for port 'rst'.
-# ** Warning: tb.sv(11): (vopt-2718) [TFMPC] - Missing connection for port 'en'.
 # //  ModelSim SE-64 10.7f Mar 24 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -48,29 +45,29 @@
 # configure wave not supported in batch mode
 # Starting DFF Testbench
 # time=0 clk=0 reset=1 d=0 q=x
-# time=5000 clk=1 reset=1 d=0 q=x
-# time=10000 clk=0 reset=1 d=0 q=x
-# time=15000 clk=1 reset=1 d=0 q=x
-# time=20000 clk=0 reset=0 d=1 q=x
-# time=25000 clk=1 reset=0 d=1 q=x
-# time=30000 clk=0 reset=0 d=1 q=x
-# time=35000 clk=1 reset=0 d=1 q=x
-# time=40000 clk=0 reset=0 d=0 q=x
-# time=45000 clk=1 reset=0 d=0 q=x
-# time=50000 clk=0 reset=0 d=0 q=x
-# time=55000 clk=1 reset=0 d=0 q=x
-# time=60000 clk=0 reset=0 d=1 q=x
-# time=65000 clk=1 reset=0 d=1 q=x
-# time=70000 clk=0 reset=0 d=1 q=x
-# time=75000 clk=1 reset=0 d=1 q=x
-# time=80000 clk=0 reset=1 d=1 q=x
-# time=85000 clk=1 reset=1 d=1 q=x
-# time=90000 clk=0 reset=0 d=0 q=x
-# time=95000 clk=1 reset=0 d=0 q=x
-# time=100000 clk=0 reset=0 d=0 q=x
-# time=105000 clk=1 reset=0 d=0 q=x
+# time=5000 clk=1 reset=1 d=0 q=0
+# time=10000 clk=0 reset=1 d=0 q=0
+# time=15000 clk=1 reset=1 d=0 q=0
+# time=20000 clk=0 reset=0 d=1 q=0
+# time=25000 clk=1 reset=0 d=1 q=1
+# time=30000 clk=0 reset=0 d=1 q=1
+# time=35000 clk=1 reset=0 d=1 q=0
+# time=40000 clk=0 reset=0 d=0 q=0
+# time=45000 clk=1 reset=0 d=0 q=0
+# time=50000 clk=0 reset=0 d=0 q=0
+# time=55000 clk=1 reset=0 d=0 q=0
+# time=60000 clk=0 reset=0 d=1 q=0
+# time=65000 clk=1 reset=0 d=1 q=1
+# time=70000 clk=0 reset=0 d=1 q=1
+# time=75000 clk=1 reset=0 d=1 q=0
+# time=80000 clk=0 reset=1 d=1 q=0
+# time=85000 clk=1 reset=1 d=1 q=0
+# time=90000 clk=0 reset=0 d=0 q=0
+# time=95000 clk=1 reset=0 d=0 q=0
+# time=100000 clk=0 reset=0 d=0 q=0
+# time=105000 clk=1 reset=0 d=0 q=0
 # Test completed
-# ** Note: $finish    : tb.sv(59)
+# ** Note: $finish    : tb.sv(61)
 #    Time: 110 ns  Iteration: 0  Instance: /tb
-# End time: 12:40:16 on Mar 30,2026, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 4
+# End time: 12:46:59 on Mar 30,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
