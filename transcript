@@ -13,7 +13,7 @@
 # //
 # do counter.do
 # Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
-# Start time: 12:52:46 on Mar 30,2026
+# Start time: 12:54:43 on Mar 30,2026
 # vlog -reportprogress 300 clk_div.sv counter.sv debounce.sv tb.sv 
 # -- Compiling module clock_divider
 # -- Compiling module counter
@@ -24,17 +24,43 @@
 # 	clock_divider
 # 	debounce
 # 	tb
-# End time: 12:52:47 on Mar 30,2026, Elapsed time: 0:00:01
+# End time: 12:54:43 on Mar 30,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.tb 
-# Start time: 12:52:47 on Mar 30,2026
+# Start time: 12:54:43 on Mar 30,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.tb(fast)
 # Loading work.counter(fast)
-# ** Error (suppressible): (vsim-12027) Array connection type 'reg$[7:0]' is incompatible with 'reg[7:0]' for  port (q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /tb/dut File: tb.sv Line: 11
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./counter.do PAUSED at line 30
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# Starting DFF Testbench
+# time=0 clk=0 reset=1 d=0 q=xxxxxxxx
+# time=5000 clk=1 reset=1 d=0 q=00000000
+# time=10000 clk=0 reset=1 d=0 q=00000000
+# time=15000 clk=1 reset=1 d=0 q=00000000
+# time=20000 clk=0 reset=0 d=1 q=00000000
+# time=25000 clk=1 reset=0 d=1 q=00000001
+# time=30000 clk=0 reset=0 d=1 q=00000001
+# time=35000 clk=1 reset=0 d=1 q=00000010
+# time=40000 clk=0 reset=0 d=0 q=00000010
+# time=45000 clk=1 reset=0 d=0 q=00000010
+# time=50000 clk=0 reset=0 d=0 q=00000010
+# time=55000 clk=1 reset=0 d=0 q=00000010
+# time=60000 clk=0 reset=0 d=1 q=00000010
+# time=65000 clk=1 reset=0 d=1 q=00000011
+# time=70000 clk=0 reset=0 d=1 q=00000011
+# time=75000 clk=1 reset=0 d=1 q=00000100
+# time=80000 clk=0 reset=1 d=1 q=00000100
+# time=85000 clk=1 reset=1 d=1 q=00000000
+# time=90000 clk=0 reset=0 d=0 q=00000000
+# time=95000 clk=1 reset=0 d=0 q=00000000
+# time=100000 clk=0 reset=0 d=0 q=00000000
+# time=105000 clk=1 reset=0 d=0 q=00000000
+# Test completed
+# ** Note: $finish    : tb.sv(61)
+#    Time: 110 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at tb.sv line 61
+# End time: 12:57:38 on Mar 30,2026, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 0
