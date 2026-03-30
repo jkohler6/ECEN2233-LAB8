@@ -12,7 +12,7 @@ module top_counter (
 	logic en_btn;
 
 	clock_divider clk_div(
-		.clk(sysclk)
+		.clk(sysclk),
 		.div_clk(divd_clk),
 		.debounce_clk(debounce_clk)
 	);

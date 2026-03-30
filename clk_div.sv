@@ -1,6 +1,6 @@
 module clock_divider (
 	input logic clk,
-	output logic div_clock,
+	output logic div_clk,
 	output logic debounce_clk 
 );
 	logic[31:0] div;

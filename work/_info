@@ -9,17 +9,17 @@ z2
 cModel Technology
 Z0 dD:/Projects/ECEN2233-LAB8
 T_opt
-!s110 1774892415
-VIi`XNT89@Ce6hl3Go?D`k2
+Z1 !s110 1774893283
+V[iYKRcd3`7`^NYzOW9]0_2
 04 2 4 work tb fast 0
-=1-c2f1b3990285-69cab57f-23-184
+=1-c2f1b3990285-69cab8e3-18b-5b4c
 o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+Z2 tCvgOpt 0
 n@_opt
 OL;O;10.7f;67
 vclock_divider
-Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-Z3 !s110 1774892414
+Z3 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+R1
 !i10b 1
 !s100 mRQjiad`gzL1h[h=Uek:V1
 IV9@9H8bzKIBbS0?jS;K_U3
@@ -35,15 +35,15 @@ Z5 OL;L;10.7f;67
 r1
 !s85 0
 31
-Z6 !s108 1774892414.000000
+Z6 !s108 1774893283.000000
 Z7 !s107 tb.sv|debounce.sv|counter.sv|clk_div.sv|
-Z8 !s90 clk_div.sv|counter.sv|debounce.sv|tb.sv|
+Z8 !s90 -reportprogress|300|clk_div.sv|counter.sv|debounce.sv|tb.sv|
 !i113 0
 Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vcounter
 R2
+vcounter
 R3
+R1
 !i10b 1
 !s100 ]VNnmKzinWJXC``Q]nm;W2
 IJZQAW;PKXo;W2[UEgjA9Y3
@@ -64,10 +64,10 @@ R7
 R8
 !i113 0
 R9
-R1
-vdebounce
 R2
+vdebounce
 R3
+R1
 !i10b 1
 !s100 :D^EFX:9nP;V?nYbjO^?f3
 In^mU`^ZFo<FI>Ndf97@^c0
@@ -88,18 +88,18 @@ R7
 R8
 !i113 0
 R9
-R1
-vtb
 R2
+vtb
 R3
+R1
 !i10b 1
-!s100 i=c_@<1lH_zkdGfoifZ5h3
-Im4en5AoQY]0j2onnMjU3[1
+!s100 aUAVC05dW;UDgSh6_:Cdh0
+IYPC^jbok9LZWAMeI;KNMm1
 R4
 !s105 tb_sv_unit
 S1
 R0
-w1774892314
+w1774893235
 8tb.sv
 Ftb.sv
 L0 3
@@ -112,4 +112,4 @@ R7
 R8
 !i113 0
 R9
-R1
+R2
