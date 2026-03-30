@@ -1,14 +1,15 @@
 module clock_divider (
-	input logic clk_in,
-	output logic clk_200Hz,
-	output logic clk_1Hz
+	input logic clk,
+	output logic div_clock,
+	output logic debounce_clk 
 );
-	logic[31:0] counter = 0;
+	logic[31:0] div;
 	
 	always_ff @(posedge clk_in) begin
-		counter <= counter + 1;
+		div <= div + 1;
 	end
 
-	assign clk_200Hz = counter[18];
-	assign clk_1Hz = counter[25];
+	assign div_clk = div[24];
+	assign debounce_clk = div[4];
+
 endmodule   
