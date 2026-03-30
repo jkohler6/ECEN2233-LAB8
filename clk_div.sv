@@ -12,4 +12,4 @@ module clock_divider (
 	assign div_clk = div[24];
 	assign debounce_clk = div[4];
 
-endmodule   
+endmodule

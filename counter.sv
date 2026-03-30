@@ -12,4 +12,3 @@ module counter (
 	end
 
 endmodule
-
