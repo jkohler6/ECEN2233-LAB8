@@ -8,10 +8,8 @@ logic d;
 logic q;
 
 // Instantiate the DUT (Device Under Test)
-dff dut (
+counter dut (
     .clk(clk),
-    .reset(reset),
-    .d(d),
     .q(q)
 );
 
