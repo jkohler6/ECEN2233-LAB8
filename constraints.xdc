@@ -1,15 +1,15 @@
 set_property PACKAGE_PIN L18 [get_ports sysclk_125mhz]
 set_property IOSTANDARD LVCMOS33 [get_ports sysclk_125mhz]
 
-set_property PACKAGE_PIN U12 [get_ports {btn[0]}]
-set_property PACKAGE_PIN V12 [get_ports {btn[1]}]
-set_property PACKAGE_PIN U7  [get_ports {btn[2]}]
-set_property PACKAGE_PIN Y6  [get_ports {btn[3]}]
+set_property PACKAGE_PIN U12 [get_ports {sw[0]}]
+set_property PACKAGE_PIN V12 [get_ports {sw[1]}]
+set_property PACKAGE_PIN U7  [get_ports {sw[2]}]
+set_property PACKAGE_PIN Y6  [get_ports {sw[3]}]
 
-set_property IOSTANDARD LVCMOS33 [get_ports{btn[0]}]
-set_property IOSTANDARD LVCMOS33 [get_ports{btn[1]}]
-set_property IOSTANDARD LVCMOS33 [get_ports{btn[2]}]
-set_property IOSTANDARD LVCMOS33 [get_ports{btn[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports{sw[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports{sw[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports{sw[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports{sw[3]}]
 
 
 
