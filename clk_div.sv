@@ -5,7 +5,7 @@ module clock_divider (
 );
 	logic[31:0] div;
 	
-	always_ff @(posedge clk_in) begin
+	always_ff @(posedge clk) begin
 		div <= div + 1;
 	end
 
