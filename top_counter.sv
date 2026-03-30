@@ -34,7 +34,7 @@ module top_counter (
 		.clk(divd_clk),
 		.en(en_btn),
 		.rst(rst_btn),
-		.out(led)
+		.q(led)
 	);
 
 endmodule
